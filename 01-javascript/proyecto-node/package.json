@@ -1,5 +1,15 @@
 {
+  "name": "proyecto-node",
+  "version": "1.0.0",
+  "main": "09-inquirer.js",
   "dependencies": {
-    "inquirer": "^8.2.5"
-  }
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
