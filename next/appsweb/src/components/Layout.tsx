@@ -19,23 +19,15 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <header>
         <nav>
-            <Link href="/">Home</Link> | <Link href="/about">About</Link> |{' '}
-            <Link href="/users">Users List</Link> |{' '}
-            <Link href="/a_hola_mundo">Hola Mundo</Link> |{' '}
-            <Link href="/c_use_state">Use State</Link> |{' '}
-            <Link href="/d_hook_custom">Hook Custom</Link> |{' '}
-            <Link href="/e_use_context">Use Context</Link> |{' '}
-            <Link href="/f_ejemplo_criptomonedas">Ejemplo Criptomonedas</Link> |{' '}
-            <a href="/api/users">Users API</a>
-      </nav>
+            <Link href="/">Home</Link> | {" "}
+            <Link href="/react_hook_form">React Hook Form</Link> | {" "}
+            <Link href="/form_control_form">Form Control Form</Link> | {" "}
+            <Link href="/i_todos">Todos</Link> | {" "}
+        </nav>
     </header>
     <div className={'container'}>
         {children}
     </div>
-    <footer>
-      <hr />
-      <span>I'm here to stay (Footer)</span>
-    </footer>
   </div>
 )
 

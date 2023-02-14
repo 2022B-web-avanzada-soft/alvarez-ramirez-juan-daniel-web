@@ -15,7 +15,7 @@ function readFile(path) {
 
 async function asyncAwaitUno(path) {
     try {
-        const respuestaContenidoArchivoOriginal = await readFile(path)
+        const respuestaContenidoArchivoOriginal = await readFile(path).then().catch((e) => console.log(e));
         console.log(respuestaContenidoArchivoOriginal);
     }
     catch (error) {
