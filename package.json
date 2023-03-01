@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@nestjs/common": "^9.3.9",
+    "@nestjs/websockets": "^9.3.9",
+    "socket.io": "^4.6.1",
+    "socket.io-client": "^4.6.0"
+  }
+}

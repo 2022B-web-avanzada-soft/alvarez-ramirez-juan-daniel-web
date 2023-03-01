@@ -17,7 +17,7 @@ export default function (params: ParametrosTodos) {
     return(
         <>
         <Layout title={"To do"}>
-            <h1>To do {params?.todo.title}</h1>
+            <h1>To do {params?.todo?.title}</h1>
         </Layout>
         </>
     )
